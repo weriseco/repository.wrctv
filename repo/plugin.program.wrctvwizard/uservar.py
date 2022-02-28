@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR limegreen][B]WRC TV[/B][/COLOR]Wizard'
 BUILDERNAME = 'wrctv'
 EXCLUDES = [ADDON_ID, 'repository.wrctv']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'https://raw.githubusercontent.com/weriseco/Wizard/master/builds.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/weriseco/repository.wrctv/master/repo/plugin.program.wrctvwizard/resources/text/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -98,9 +98,9 @@ AUTOINSTALL = 'Yes'
 # Addon ID for the repository
 REPOID = 'repository.wrctv'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/weriseco/Addons/master/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/weriseco/weriseco/master/repo/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/weriseco/Addons/master/zips/repository.wrctv/'
+REPOZIPURL = 'https://raw.githubusercontent.com/weriseco/Addons/master/repo/zips/repository.wrctv/'
 #########################################################
 
 #########################################################
@@ -114,7 +114,7 @@ NOTIFICATION = 'http://'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR limegreen][B]Open[/B][/COLOR]Wizard'
+HEADERMESSAGE = '[COLOR limegreen][B]WRC TV[/B][/COLOR]Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
