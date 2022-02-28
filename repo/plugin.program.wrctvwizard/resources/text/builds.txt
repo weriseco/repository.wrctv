@@ -1,6 +1,6 @@
 id="plugin.program.wrctvwizard"
-version="1.4.9"
-zip="https://github.com/weriseco/Addons/raw/master/zips/plugin.program.wrctvwizard/plugin.program.wrctvwizard.zip"
+version="2.0.7"
+zip="https://github.com/weriseco/repository.wrctv/master/repo/zips/plugin.program.wrctvwizard/plugin.program.wrctvwizard.zip"
 
 name="WRC TV Aura"
 version="1.5"
