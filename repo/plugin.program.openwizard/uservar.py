@@ -14,8 +14,8 @@ ART = os.path.join(PATH, 'resources', 'media')
 #        User Edit Variables                            #
 #########################################################
 ADDONTITLE = '[COLOR limegreen][B]WRC TV[/B][/COLOR]Wizard'
-BUILDERNAME = 'Weriseco'
-EXCLUDES = [ADDON_ID, 'repository.wrctvwizard']
+BUILDERNAME = 'weriseco'
+EXCLUDES = [ADDON_ID, 'plugin.program.wrctvwizard']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
 BUILDFILE = 'https://raw.githubusercontent.com/weriseco/repository.wrctv/master/repo/plugin.program.wrctvwizard/resources/text/builds.txt'
 # How often you would like it to check for build updates in days
@@ -77,7 +77,7 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing OpenWizard.\n\nContact us on Github at http://www.github.com/weriseco/plugin.program.wrctvwizard/'
+CONTACT = 'Thank you for choosing WRC TV Wizard.\n\nContact us on Github at http://www.github.com/weriseco/plugin.program.wrctvwizard/'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
@@ -98,9 +98,9 @@ AUTOINSTALL = 'No'
 # Addon ID for the repository
 REPOID = 'repository.wrctv'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/weriseco/weriseco/master/repo/zips/addons.xml'
+REPOADDONXML = 'https://raw.githubusercontent.com/weriseco/repository.wrctv/master/repo/zips/addons.xml'
 # Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/weriseco/Addons/master/repo/zips/repository.wrctv/'
+REPOZIPURL = 'https://raw.githubusercontent.com/weriseco/repository.wrctv/master/repo/zips/repository.wrctv/'
 #########################################################
 
 #########################################################
