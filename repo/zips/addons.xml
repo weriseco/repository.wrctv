@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.wrctvwizard" name="[COLOR limegreen]WRC TV[/COLOR]Wizard" version="2.0.7" provider-name="weriseco">
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.wrctvwizard" name="[COLOR limegreen]WRC TV[/COLOR]Wizard" version="2.0.7" provider-name="weriseco">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -145,4 +145,22 @@
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
-</addon>
+</addon><addon id="repository.wrctv" name="WRC TV Repository" version="1.0" provider-name="weriseco">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/weriseco/repository.wrctv/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/weriseco/repository.wrctv/master/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/weriseco/repository.wrctv/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>WRC TV Repository</summary>
+        <description>Wizard and Builds for Kodi</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
