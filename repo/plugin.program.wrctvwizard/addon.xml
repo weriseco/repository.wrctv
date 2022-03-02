@@ -19,7 +19,7 @@
         <description lang="en">[COLOR limegreen]WRC TV[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>https://www.github.com/weriseco/plugin.program.wrctvwizard/</source>
+        <source>https://www.github.com/weriseco/repository.wrctv/master/repo/plugin.program.wrctvwizard/</source>
         <news>
 2.0.7
  - Fix Error when using default log settings
